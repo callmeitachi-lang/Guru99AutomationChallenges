@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class TestProductMatchCostWithDetails {
+public class TestProductAmountMatchesProductPageDetails {
 
     WebDriver driver;
     @BeforeMethod
