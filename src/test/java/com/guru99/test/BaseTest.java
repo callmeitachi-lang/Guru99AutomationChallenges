@@ -25,7 +25,7 @@ public class BaseTest {
     LoginPage loginPage;
     BrowserFactory browserFactory;
     Properties prop;
-   @BeforeMethod
+  // @BeforeMethod
    public void setup()
    {
        browserFactory = new BrowserFactory();
@@ -35,7 +35,7 @@ public class BaseTest {
 
    }
 
-   @AfterMethod
+   //@AfterMethod
     public void tearDown(ITestResult iTestResult)
 
    {

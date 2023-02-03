@@ -1,127 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-23T16:13:45 IST" name="Command line suite" finished-at="2023-01-23T16:14:34 IST" duration-ms="49291">
+  <suite started-at="2023-02-03T17:51:05 IST" name="All Test Suite" finished-at="2023-02-03T17:52:07 IST" duration-ms="62063">
     <groups>
     </groups>
-    <test started-at="2023-01-23T16:13:45 IST" name="Command line test" finished-at="2023-01-23T16:14:34 IST" duration-ms="49291">
-      <class name="com.guru99.test.TestNegativeLoginPageCred">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.guru99.test.TestNegativeLoginPageCred@306cf3ea]" started-at="2023-01-23T16:14:04 IST" name="setup" finished-at="2023-01-23T16:14:12 IST" duration-ms="8196" status="PASS">
+    <test started-at="2023-02-03T17:51:05 IST" name="C:/Users/knwrp/IdeaProjects/guru99SeleniumProject/src/test/java/com/guru99/test/techpanda" finished-at="2023-02-03T17:52:07 IST" duration-ms="62063">
+      <class name="com.guru99.test.techpanda.TestTheMaxiumQuantityOfProductWhichCanBeAdded">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.guru99.test.techpanda.TestTheMaxiumQuantityOfProductWhichCanBeAdded@29215f06]" started-at="2023-02-03T17:51:54 IST" name="setup" finished-at="2023-02-03T17:52:00 IST" duration-ms="5676" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateLoginWithNegCred(java.lang.String,java.lang.String)[pri:0, instance:com.guru99.test.TestNegativeLoginPageCred@306cf3ea]" started-at="2023-01-23T16:14:12 IST" name="validateLoginWithNegCred" data-provider="getDataBy" finished-at="2023-01-23T16:14:13 IST" duration-ms="875" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr472001]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[xxxxxx]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="checkTheMaximumOrder()[pri:0, instance:com.guru99.test.techpanda.TestTheMaxiumQuantityOfProductWhichCanBeAdded@29215f06]" started-at="2023-02-03T17:52:00 IST" name="checkTheMaximumOrder" finished-at="2023-02-03T17:52:06 IST" duration-ms="6344" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLoginWithNegCred -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.guru99.test.TestNegativeLoginPageCred@306cf3ea]" started-at="2023-01-23T16:14:13 IST" name="tearDown" finished-at="2023-01-23T16:14:14 IST" duration-ms="1082" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validateLoginWithNegCred status=SUCCESS method=TestNegativeLoginPageCred.validateLoginWithNegCred(java.lang.String,java.lang.String)[pri:0, instance:com.guru99.test.TestNegativeLoginPageCred@306cf3ea] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- checkTheMaximumOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.guru99.test.techpanda.TestTheMaxiumQuantityOfProductWhichCanBeAdded@29215f06]" started-at="2023-02-03T17:52:06 IST" name="tearDown" finished-at="2023-02-03T17:52:07 IST" duration-ms="734" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.guru99.test.TestNegativeLoginPageCred@306cf3ea]" started-at="2023-01-23T16:14:14 IST" name="setup" finished-at="2023-01-23T16:14:23 IST" duration-ms="8503" status="PASS">
+      </class> <!-- com.guru99.test.techpanda.TestTheMaxiumQuantityOfProductWhichCanBeAdded -->
+      <class name="com.guru99.test.techpanda.TestProductAmountMatchesProductPageDetails">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.guru99.test.techpanda.TestProductAmountMatchesProductPageDetails@d9345cd]" started-at="2023-02-03T17:51:20 IST" name="setup" finished-at="2023-02-03T17:51:27 IST" duration-ms="6766" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateLoginWithNegCred(java.lang.String,java.lang.String)[pri:0, instance:com.guru99.test.TestNegativeLoginPageCred@306cf3ea]" started-at="2023-01-23T16:14:23 IST" name="validateLoginWithNegCred" data-provider="getDataBy" finished-at="2023-01-23T16:14:23 IST" duration-ms="768" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[xxxxxx]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[adeteqA]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="matchProductPriceWithProDetailPrice()[pri:0, instance:com.guru99.test.techpanda.TestProductAmountMatchesProductPageDetails@d9345cd]" started-at="2023-02-03T17:51:27 IST" name="matchProductPriceWithProDetailPrice" finished-at="2023-02-03T17:51:34 IST" duration-ms="7595" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLoginWithNegCred -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.guru99.test.TestNegativeLoginPageCred@306cf3ea]" started-at="2023-01-23T16:14:23 IST" name="tearDown" finished-at="2023-01-23T16:14:24 IST" duration-ms="1039" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validateLoginWithNegCred status=SUCCESS method=TestNegativeLoginPageCred.validateLoginWithNegCred(java.lang.String,java.lang.String)[pri:0, instance:com.guru99.test.TestNegativeLoginPageCred@306cf3ea] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- matchProductPriceWithProDetailPrice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.guru99.test.techpanda.TestProductAmountMatchesProductPageDetails@d9345cd]" started-at="2023-02-03T17:51:34 IST" name="tearDown" finished-at="2023-02-03T17:51:35 IST" duration-ms="768" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.guru99.test.TestNegativeLoginPageCred@306cf3ea]" started-at="2023-01-23T16:14:24 IST" name="setup" finished-at="2023-01-23T16:14:32 IST" duration-ms="8009" status="PASS">
+      </class> <!-- com.guru99.test.techpanda.TestProductAmountMatchesProductPageDetails -->
+      <class name="com.guru99.test.techpanda.TestCompareTwoProducts">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.guru99.test.techpanda.TestCompareTwoProducts@7c24b813]" started-at="2023-02-03T17:51:05 IST" name="setup" finished-at="2023-02-03T17:51:13 IST" duration-ms="8727" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateLoginWithNegCred(java.lang.String,java.lang.String)[pri:0, instance:com.guru99.test.TestNegativeLoginPageCred@306cf3ea]" started-at="2023-01-23T16:14:32 IST" name="validateLoginWithNegCred" data-provider="getDataBy" finished-at="2023-01-23T16:14:33 IST" duration-ms="777" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[xxxxxxinvalid]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[xxxxxxinvalid]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="compareTwoProductsTest()[pri:0, instance:com.guru99.test.techpanda.TestCompareTwoProducts@7c24b813]" started-at="2023-02-03T17:51:13 IST" name="compareTwoProductsTest" finished-at="2023-02-03T17:51:19 IST" duration-ms="5863" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLoginWithNegCred -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.guru99.test.TestNegativeLoginPageCred@306cf3ea]" started-at="2023-01-23T16:14:33 IST" name="tearDown" finished-at="2023-01-23T16:14:34 IST" duration-ms="1148" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validateLoginWithNegCred status=SUCCESS method=TestNegativeLoginPageCred.validateLoginWithNegCred(java.lang.String,java.lang.String)[pri:0, instance:com.guru99.test.TestNegativeLoginPageCred@306cf3ea] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- compareTwoProductsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.guru99.test.techpanda.TestCompareTwoProducts@7c24b813]" started-at="2023-02-03T17:51:19 IST" name="tearDown" finished-at="2023-02-03T17:51:20 IST" duration-ms="861" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.guru99.test.TestNegativeLoginPageCred -->
-      <class name="com.guru99.test.TestLoginPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.guru99.test.TestLoginPage@1bb266b3]" started-at="2023-01-23T16:13:45 IST" name="setup" finished-at="2023-01-23T16:14:00 IST" duration-ms="15167" status="PASS">
+      </class> <!-- com.guru99.test.techpanda.TestCompareTwoProducts -->
+      <class name="com.guru99.test.techpanda.TestSortTheProductsByName">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.guru99.test.techpanda.TestSortTheProductsByName@2d710f1a]" started-at="2023-02-03T17:51:35 IST" name="setup" finished-at="2023-02-03T17:51:41 IST" duration-ms="5615" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLoginWithValidCred()[pri:0, instance:com.guru99.test.TestLoginPage@1bb266b3]" started-at="2023-01-23T16:14:00 IST" name="testLoginWithValidCred" finished-at="2023-01-23T16:14:03 IST" duration-ms="2530" status="PASS">
+        <test-method signature="homePageTitleTest()[pri:1, instance:com.guru99.test.techpanda.TestSortTheProductsByName@2d710f1a]" started-at="2023-02-03T17:51:41 IST" name="homePageTitleTest" finished-at="2023-02-03T17:51:41 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginWithValidCred -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.guru99.test.TestLoginPage@1bb266b3]" started-at="2023-01-23T16:14:03 IST" name="tearDown" finished-at="2023-01-23T16:14:04 IST" duration-ms="1112" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testLoginWithValidCred status=SUCCESS method=TestLoginPage.testLoginWithValidCred()[pri:0, instance:com.guru99.test.TestLoginPage@1bb266b3] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.guru99.test.techpanda.TestSortTheProductsByName@2d710f1a]" started-at="2023-02-03T17:51:41 IST" name="tearDown" finished-at="2023-02-03T17:51:42 IST" duration-ms="818" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.guru99.test.TestLoginPage -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.guru99.test.techpanda.TestSortTheProductsByName@2d710f1a]" started-at="2023-02-03T17:51:42 IST" name="setup" finished-at="2023-02-03T17:51:49 IST" duration-ms="7720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="sortByNameTest()[pri:2, instance:com.guru99.test.techpanda.TestSortTheProductsByName@2d710f1a]" started-at="2023-02-03T17:51:49 IST" name="sortByNameTest" finished-at="2023-02-03T17:51:53 IST" duration-ms="3656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByNameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.guru99.test.techpanda.TestSortTheProductsByName@2d710f1a]" started-at="2023-02-03T17:51:53 IST" name="tearDown" finished-at="2023-02-03T17:51:54 IST" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guru99.test.techpanda.TestSortTheProductsByName -->
+    </test> <!-- C:/Users/knwrp/IdeaProjects/guru99SeleniumProject/src/test/java/com/guru99/test/techpanda -->
+  </suite> <!-- All Test Suite -->
 </testng-results>

@@ -12,7 +12,7 @@ import java.time.Duration;
 
 public class TestProductAmountMatchesProductPageDetails {
 
-    WebDriver driver;
+    private WebDriver driver;
     @BeforeMethod
     public void setup()
     {

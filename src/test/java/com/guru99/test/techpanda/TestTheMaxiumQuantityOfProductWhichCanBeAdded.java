@@ -11,8 +11,8 @@ import org.testng.asserts.SoftAssert;
 
 import java.time.Duration;
 
-public class TestTheMaxiumQuantityOfProduct {
-    WebDriver driver;
+public class TestTheMaxiumQuantityOfProductWhichCanBeAdded {
+    private WebDriver driver;
     SoftAssert softAssert;
     @BeforeMethod
     public void setup()
@@ -44,7 +44,7 @@ public class TestTheMaxiumQuantityOfProduct {
     @AfterMethod
     public void tearDown()
     {
-      //  driver.quit();
+      driver.quit();
 
     }
 

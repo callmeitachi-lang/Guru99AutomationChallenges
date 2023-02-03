@@ -1,0 +1,7 @@
+com\guru99\test\techpanda\TestCompareTwoProducts.class
+com\guru99\test\techpanda\TestProductAmountMatchesProductPageDetails.class
+com\guru99\test\techpanda\TestTheMaxiumQuantityOfProductWhichCanBeAdded.class
+com\guru99\test\BaseTest.class
+com\guru99\test\TestLoginPage.class
+com\guru99\test\TestNegativeLoginPageCred.class
+com\guru99\test\techpanda\TestSortTheProductsByName.class

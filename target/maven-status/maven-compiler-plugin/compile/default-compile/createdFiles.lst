@@ -1,1 +1,6 @@
+com\guru99\base\Temp.class
+com\guru99\Utils\ConstantsUtil.class
+com\guru99\Utils\ExcelUtils.class
+com\guru99\base\BrowserFactory.class
 com\guru99\pages\ManagerHomePage.class
+com\guru99\pages\LoginPage.class

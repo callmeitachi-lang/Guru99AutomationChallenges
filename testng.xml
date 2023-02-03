@@ -4,6 +4,11 @@
     <test verbose="2" preserve-order="true"
           name="C:/Users/knwrp/IdeaProjects/guru99SeleniumProject/src/test/java/com/guru99/test/techpanda">
         <classes>
+            <class name="com.guru99.test.techpanda.TestCompareTwoProducts">
+                <methods>
+                    <include name="compareTwoProductsTest"/>
+                </methods>
+            </class>
             <class name="com.guru99.test.techpanda.TestProductAmountMatchesProductPageDetails">
                 <methods>
                     <include name="matchProductPriceWithProDetailPrice"/>
@@ -15,7 +20,7 @@
                     <include name="sortByNameTest"/>
                 </methods>
             </class>
-            <class name="com.guru99.test.techpanda.TestTheMaxiumQuantityOfProduct">
+            <class name="com.guru99.test.techpanda.TestTheMaxiumQuantityOfProductWhichCanBeAdded">
                 <methods>
                     <include name="checkTheMaximumOrder"/>
                 </methods>

@@ -19,7 +19,7 @@ import java.util.List;
 
 public class TestSortTheProductsByName {
 
-    WebDriver driver;
+    private WebDriver driver;
   @BeforeMethod
  public void setup()
   {

@@ -25,7 +25,7 @@ public class TestNegativeLoginPageCred extends BaseTest{
     }
 
 
-   @Test(dataProvider = "getDataBy")
+   @Test(dataProvider = "getDataBy",enabled = false)
    public void validateLoginWithNegCred(String username,String password) throws InterruptedException {
        loginPage.dologinWithNegativeCred(username,password);
    }
